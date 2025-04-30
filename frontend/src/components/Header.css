@@ -96,22 +96,27 @@
 }
 
 @media (max-width: 768px) {
-  .header-content {
-    flex-direction: column;
-    text-align: center;
+  
+  .logo-image {
+    width: 35px;
+    height: auto;
+  }
+
+  .logo-text {
+    font-size: 20px;
   }
 
   .nav {
-    margin-top: 1rem;
+    overflow: hidden;
+    display: flex;
   }
 
   .nav ul {
-    flex-direction: column;
+    font-size: 15px;
+  }
+
+  .header-content {
     align-items: center;
   }
 
-  .nav li {
-    margin: 0.5rem 0;
-    margin-left: 0;
-  }
 }
